@@ -1,5 +1,5 @@
 //based on a pen by @robinselmer
-var url = "https://api.minetools.eu/ping/mc.gaminglife.fun/25634";
+var url = "https://api.minetools.eu/ping/liongamer.minehost.pro/30251";
 
 $.getJSON(url, function (r) {
     //data is the JSON string
@@ -8,7 +8,7 @@ $.getJSON(url, function (r) {
         return false;
     }
     var pl = '';
-    if (r.players.sample.length > 0) { pl = '<br>Staff: ' + r.players.sample[0].name; }
+    if (r.players.sample.length > 0) { pl = '<br>Players: ' + r.players.sample[0].name; }
     $('#rest').html(r.description.replace(/§(.+?)/gi, '') + '<br><b>Conectados:</b> ' + r.players.online + pl);
     $('#favicon').attr('src', r.favicon);
 
