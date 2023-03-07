@@ -1,0 +1,33 @@
+*{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+body{
+    background-color: black;
+}
+
+h1{
+    font-size: 400%;
+}
+
+li{
+    font-size: 25px;
+}
+
+big{
+    font-size: 30px;
+    color: lawngreen;
+}
+
+p{
+    font-size: 30px;
+}
+.nav a{
+    text-decoration: underline red;
+    font-size: 2.2rem;
+}
+
+.nav{
+    text-align: center;
+}

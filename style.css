@@ -1,0 +1,153 @@
+body{
+    background-image: url(https://phantom-marca.unidadeditorial.es/6557062822ae9d8fcfb57a14f4fcb803/resize/1320/f/jpg/assets/multimedia/imagenes/2022/05/09/16521305266949.jpg);
+    background-size: 100%;
+    align-items: center;
+}
+.contenedor{
+    width: 100%;
+    margin: 0 auto;
+}
+
+#title{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 4.8rem;
+    text-decoration: underline coral;
+    font-weight: bold;
+    padding: 0.625rem;
+    padding-bottom: 1.5rem;
+    background: linear-gradient(90deg, red, white);
+    -webkit-background-clip: text;
+    color: transparent;  
+}
+
+.container{
+    font-size: 1.5625rem;
+}
+
+#ip {
+    text-align: center;
+    width: 100%;
+}
+
+#ip a{
+    color: white;
+}
+#comandos{
+    text-align: center;
+}
+#normas{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    padding: 0.325rem;
+    background-color: red;
+    border-radius: 0.825rem;
+    font-weight: bold;
+    color: white;
+}
+
+footer{
+    margin-top: 1%;
+    text-align: center;
+}
+
+#discord{
+    font-size: 3.75rem;
+}
+
+#discord a{
+    padding: 0.8875rem;
+    border-radius: 50%;
+    background-color: blue;
+    color: white;
+}
+
+#whatsapp{
+    font-size: 1.5625rem;
+    padding-left: 15.625rem;
+    font-size: 3.75rem;
+}
+
+h1,
+h2 {
+    font-weight: 400;
+    font-size: 1.1875rem;
+}
+
+.card {
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    width: 300px;
+    min-width: 300px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.3);
+    -webkit-animation: fadein 2s;
+    animation: fadein 2s;
+    overflow: hidden;
+    z-index: 999;
+    margin-top: 1%;
+}
+
+.header {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 180px;
+    box-shadow: 0 4px 3px #0002;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    transition: all 1s ease;
+    z-index: 0
+}
+
+.image {
+    width: 100%;
+    height: 180px;
+    cursor: crosshair;
+    overflow: hidden;
+}
+
+.image:hover img {
+    -webkit-transform: scale(1.2, 1.2);
+    transform: scale(1.2, 1.2);
+}
+
+.header h2 {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    width: 100%;
+    padding: 0 10px;
+    color: #fff;
+    text-transform: uppercase;
+    pointer-events: none;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+}
+
+.icon {
+    position: absolute;
+    background: #fff;
+    right: 10px;
+    top: 135px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #fff;
+    box-shadow: 0 4px 3px #0002;
+    z-index: 9
+}
+
+#rest {
+    padding: 30px 15px;
+    line-height: 30px;
+    color: #000d42
+}

@@ -1,0 +1,29 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+body{
+    background-color: black;
+}
+
+h1{
+    font-size: 80px;
+    text-align: center;
+    background: linear-gradient(90deg, red, white);
+    -webkit-background-clip: text;
+    color: transparent; 
+}
+
+li{
+    font-size: 1.5625rem;
+}
+
+ol{
+    padding-left: 45%;
+}
+
+p{
+    font-size: 1.875rem;
+    color: lawngreen;
+    text-align: center;
+}
